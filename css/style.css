@@ -29,6 +29,7 @@ body {
 .nav-list-link-studio {
     color: black;
     text-decoration: none;
+    font-weight: medium;
 }
 
 .nav-list-link:hover,
@@ -76,16 +77,19 @@ text-decoration: underline;
 }
 
 .main-button {
+    display: block;
+        margin: 0 auto;
     font-weight: medium;
         font-size: 16px;
         letter-spacing: 4%;
         color: #FFFFFF;
         background-color: #4D5AE5;
         cursor: pointer;
-        padding: 10px 20px;
+        padding: 16px 32px;
             border: none;
             border-radius: 4px;
 }
+
 
 .main-button:hover,
 .main-button:focus {
@@ -96,3 +100,53 @@ text-decoration: underline;
     color: #F4F4FD;
         background-color: #2E2F42;
     }
+
+        header {
+            display: flex;
+            /* Enables Flexbox */
+            justify-content: space-between;
+            /* Space between the navigation and the address */
+            align-items: center;
+            /* Vertically centers the content inside the header */
+        }
+    
+        .nav {
+            display: flex;
+            /* Ensures the nav elements are in one row */
+            align-items: center;
+            /* Vertically centers the nav elements */
+        }
+    
+        .nav-list {
+            display: flex;
+            /* Puts the nav list items in one row */
+            list-style: none;
+            /* Removes bullet points */
+            margin: 0;
+            padding: 0;
+        }
+    
+        .nav-list li {
+            margin-left: 20px;
+            /* Adds space between nav items */
+        }
+    
+        .address-list {
+            display: flex;
+            /* Puts the address list items in one row */
+            list-style: none;
+            /* Removes bullet points */
+            margin: 0;
+            padding: 0;
+        }
+    
+        .address-list li {
+            margin-left: 20px;
+            /* Adds space between address items */
+        }
+    
+        a {
+            text-decoration: none;
+            /* Removes underline from links */
+            color: black;
+        }
