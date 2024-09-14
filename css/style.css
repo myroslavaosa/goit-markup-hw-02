@@ -1,12 +1,47 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
+    background-color: #FFFFFF;
 }
+
+.nav > .nav-link-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+text-decoration: none;
+}
+.nav > .nav-link-logo > span {
+    color: #2E2F42;
+}
+
+.nav-list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+#studio-link:hover,
+#studio-link:focus {
+color: #404bbf;
+}
+
+.header-adress {
+    font-style: normal;
+}
+
 .adress-link {
-    color: black;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
 }
 
@@ -15,138 +50,122 @@ body {
     color: #404BBF;
 }
 
-.adress-list { 
-    list-style-type: none;
-    display:inline-flex;
-}
-
-.nav-list {
-    list-style-type: none;
-    display:inline-flex;
-}
-
-.nav-list-link,
-.nav-list-link-studio {
-    color: black;
-    text-decoration: none;
-    font-weight: medium;
-}
-
-.nav-list-link:hover,
-.nav-list-link:focus {
-color: #404BBF;
-}
-
-.nav-list-link-studio:hover,
-.nav-list-link-studio:focus {
-    color: #404BBF;
-}
-
-.nav-list-link-studio:active {
-text-decoration: underline;
-    text-decoration-color: #404BBF;
-}
 
 .first-section {
     background-color: #2E2F42;
 }
 
-.second-section > ul {
-            list-style-type: none;
-            display: inline-flex;
-}
 
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.071428571428571;
+    line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    background-color: #F4F4FD;
-}
-
-.small-title {
-    font-weight: medium;
-        font-size: 20px;
+    letter-spacing: 0.02em;
 }
 
 .main-button {
-    display: block;
-        margin: 0 auto;
+    font-family: "Roboto", sans-serif;
     font-weight: medium;
-        font-size: 16px;
-        letter-spacing: 4%;
-        color: #FFFFFF;
-        background-color: #4D5AE5;
-        cursor: pointer;
-        padding: 16px 32px;
-            border: none;
-            border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
-
 
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
 }
 
-.down {
+.first-section-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.third-section-title {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+.small-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.title-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer {
     color: #F4F4FD;
-        background-color: #2E2F42;
+    background-color: #2E2F42;
     }
 
-        header {
-            display: flex;
-            /* Enables Flexbox */
-            justify-content: space-between;
-            /* Space between the navigation and the address */
-            align-items: center;
-            /* Vertically centers the content inside the header */
-        }
-    
-        .nav {
-            display: flex;
-            /* Ensures the nav elements are in one row */
-            align-items: center;
-            /* Vertically centers the nav elements */
-        }
-    
-        .nav-list {
-            display: flex;
-            /* Puts the nav list items in one row */
-            list-style: none;
-            /* Removes bullet points */
-            margin: 0;
-            padding: 0;
-        }
-    
-        .nav-list li {
-            margin-left: 20px;
-            /* Adds space between nav items */
-        }
-    
-        .address-list {
-            display: flex;
-            /* Puts the address list items in one row */
-            list-style: none;
-            /* Removes bullet points */
-            margin: 0;
-            padding: 0;
-        }
-    
-        .address-list li {
-            margin-left: 20px;
-            /* Adds space between address items */
-        }
-    
-        a {
-            text-decoration: none;
-            /* Removes underline from links */
-            color: black;
-        }
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.footer-logo>span {
+    color: #F4F4FD;
+}
+
+.footer-paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
