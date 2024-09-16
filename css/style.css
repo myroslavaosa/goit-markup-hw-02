@@ -74,6 +74,7 @@ color: #404bbf;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    line-height: 1.5;
 }
 
 .main-button:hover,
@@ -96,7 +97,7 @@ color: #404bbf;
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.02em;
-    line-height: 1.2;
+    line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
 }
